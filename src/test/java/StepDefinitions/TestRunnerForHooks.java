@@ -4,11 +4,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/HooksDemo/HooksDemo.feature", glue={"StepForHooks"},monochrome = true,
-        plugin = {"pretty","html:target/HtmlReports",
-                "json:target/JSONReports/report.json",
-                "html:target/JUnitReports/report.xml"})
+//@RunWith(Cucumber.class)
+//@CucumberOptions(features="src/test/resources/HooksDemo/HooksDemo.feature", glue={"StepDefinitions"},monochrome = true,
+//        plugin = {"pretty","html:target/HtmlReports",
+//                "json:target/JSONReports/report.json",
+//                "html:target/JUnitReports/report.xml"})
 
 public class TestRunnerForHooks {
 }
